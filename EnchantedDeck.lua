@@ -51,13 +51,13 @@ function Back.apply_to_run(arg_56_0)
 						G.playing_cards[iter_57_0]:set_ability(random_m)
 					end
 
-					-- 7.5% to have one of the editions
+					-- 8% to have one of the editions
 					if math.random(100) <= 8 then  
 						local random_e = randomSelect(trandom_e)
 						G.playing_cards[iter_57_0]:set_edition(random_e, true, true)
 					end
 
-					-- 7.5% to have one of the seals
+					-- 8% to have one of the seals
 					if math.random(100) <= 8 then  
 						local random_g = randomSelect(trandom_g)
 						G.playing_cards[iter_57_0]:set_seal(random_g, true, true)
