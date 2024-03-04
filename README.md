@@ -9,6 +9,8 @@ Odds are (check mod files as these are subject to change):
 - 8% that a card has a **_special edition_**
 - 8% that a card has a **_seal_**
 
+Thanks to [@Steamo](https://github.com/Steamopollys) for the [base code](https://github.com/Steamopollys/Steamodded/blob/main/example_mods/UltimateRandom.lua) and example mods!
+
 
 ## Installation
 - This mod requires [ModLoader](https://github.com/Steamopollys/Steamodded/).
