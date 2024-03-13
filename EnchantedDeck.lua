@@ -16,10 +16,10 @@ function randomSelect(table)
 end
 
 local Backapply_to_runRef = Back.apply_to_run
-function Back.apply_to_run(arg_56_0)
-	Backapply_to_runRef(arg_56_0)
+function Back.apply_to_run(arg)
+	Backapply_to_runRef(arg)
 
-	if arg_56_0.effect.config.enchanted then
+	if arg.effect.config.enchanted then
 		G.E_MANAGER:add_event(Event({
 			func = function()
 				local trandom_m = {
@@ -46,19 +46,19 @@ function Back.apply_to_run(arg_56_0)
 				for iter_57_0 = #G.playing_cards, 1, -1 do
 					-- Chance to apply modifications 
 					-- 20% to have one of the enhancements
-					if math.random(100) <= 20 then  
+					if math.random(100) <= 15 then  
 						local random_m = randomSelect(trandom_m)
 						G.playing_cards[iter_57_0]:set_ability(random_m)
 					end
 
 					-- 8% to have one of the editions
-					if math.random(100) <= 8 then  
+					if math.random(100) <= 5 then  
 						local random_e = randomSelect(trandom_e)
 						G.playing_cards[iter_57_0]:set_edition(random_e, true, true)
 					end
 
 					-- 8% to have one of the seals
-					if math.random(100) <= 8 then  
+					if math.random(100) <= 5 then  
 						local random_g = randomSelect(trandom_g)
 						G.playing_cards[iter_57_0]:set_seal(random_g, true, true)
 					end

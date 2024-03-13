@@ -5,11 +5,14 @@ Mods I made for the awesome game [Balatro](https://store.steampowered.com/app/23
 Start the game with some of your cards already be enhanced!
 
 Odds are (check mod files as these are subject to change):
-- 20% that a card is **_enhanced_**
-- 8% that a card has a **_special edition_**
-- 8% that a card has a **_seal_**
+- 15% that a card is **_enhanced_**
+- 5% that a card has a **_special edition_**
+- 5% that a card has a **_seal_**
 
 Thanks to [@Steamo](https://github.com/Steamopollys) for the [base code](https://github.com/Steamopollys/Steamodded/blob/main/example_mods/UltimateRandom.lua) and example mods!
+
+## ShopStake
+Adds Overstock Voucher (+1 Shop) to all runs at Blue Stakes or higher
 
 
 ## Installation
