@@ -12,7 +12,7 @@ Odds are (check mod files as these are subject to change):
 Thanks to [@Steamo](https://github.com/Steamopollys) for the [base code](https://github.com/Steamopollys/Steamodded/blob/main/example_mods/UltimateRandom.lua) and example mods!
 
 ## ShopStake
-Adds Overstock Voucher (+1 Shop) to all runs at Blue Stakes or higher
+Adds Overstock Voucher (+1 card slot in Shop) to all runs at Blue Stakes or higher
 
 
 ## Installation

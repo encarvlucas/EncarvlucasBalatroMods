@@ -43,24 +43,24 @@ function Back.apply_to_run(arg)
 					"Gold",
 					"Purple",
 				}
-				for iter_57_0 = #G.playing_cards, 1, -1 do
+				for iter = #G.playing_cards, 1, -1 do
 					-- Chance to apply modifications 
-					-- 20% to have one of the enhancements
+					-- 15% to have one of the enhancements
 					if math.random(100) <= 15 then  
 						local random_m = randomSelect(trandom_m)
-						G.playing_cards[iter_57_0]:set_ability(random_m)
+						G.playing_cards[iter]:set_ability(random_m)
 					end
 
-					-- 8% to have one of the editions
+					-- 5% to have one of the editions
 					if math.random(100) <= 5 then  
 						local random_e = randomSelect(trandom_e)
-						G.playing_cards[iter_57_0]:set_edition(random_e, true, true)
+						G.playing_cards[iter]:set_edition(random_e, true, true)
 					end
 
-					-- 8% to have one of the seals
+					-- 5% to have one of the seals
 					if math.random(100) <= 5 then  
 						local random_g = randomSelect(trandom_g)
-						G.playing_cards[iter_57_0]:set_seal(random_g, true, true)
+						G.playing_cards[iter]:set_seal(random_g, true, true)
 					end
 				end
 
