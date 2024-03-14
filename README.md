@@ -16,6 +16,12 @@ Thanks to [@Steamo](https://github.com/Steamopollys) for the [base code](https:/
 Adds Overstock Voucher (+1 card slot in Shop) to all runs at Blue Stakes or higher
 ![image](https://github.com/encarvlucas/EncarvlucasBalatroMods/assets/30300926/fe27a9d4-9b03-4994-bff0-17669a7a54cc)
 
+### Permanent Overstock (Alternative)
+[File](/PermanentOvertock.lua)
+This is an alternative to ShopStake. It adds Overstock Voucher (+1 card slot in Shop) to all runs.
+
+> (This stacks with ShopStake)
+
 
 ## Installation
 - This mod requires [ModLoader](https://github.com/Steamopollys/Steamodded/).
